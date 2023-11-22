@@ -1,0 +1,140 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+} 
+
+.navbar { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	position: sticky; 
+	top: 0; 
+	cursor: pointer; 
+	
+} 
+
+.background { 
+	background: rgb(192, 221, 255); 
+	background-blend-mode: darken; 
+	background-size: cover; 
+} 
+
+.footer { 
+background-color: #000; 
+} 
+
+.nav-list { 
+	width: 70%; 
+	display: flex; 
+	align-items: center; 
+} 
+
+
+.logo img { 
+	width: 180px; 
+	border-radius: 50px; 
+} 
+
+.nav-list li { 
+	list-style: none; 
+	padding: 26px 30px; 
+} 
+
+.nav-list li a { 
+	text-decoration: none; 
+	color: #000; 
+} 
+
+.nav-list li a:hover { 
+	color: grey; 
+} 
+
+.rightnav { 
+	width: 30%; 
+	text-align: right; 
+} 
+
+.btn { 
+margin-left: 20px; 
+height: 33px; 
+width: 90px; 
+	color: #fff; 
+background-color: orange; 
+	cursor: pointer; 
+} 
+.btm{ 
+margin-left: 20px; 
+height: 33px; 
+width: 90px; 
+	color: #fff; 
+background-color: green;
+	cursor: pointer; 
+} 
+
+.btn-sm { 
+	padding: 6px 10px; 
+	vertical-align: middle; 
+} 
+
+
+
+.text-footer { 
+	text-align: center; 
+	padding: 30px 0; 
+	font-family: 'Ubuntu', sans-serif; 
+	display: flex; 
+	justify-content: center; 
+	color: #fff; 
+} 
+.c{
+	background-color:white;	height: 600px;
+	width:700px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+
+}
+.cimg{
+	background-color: olivedrab;
+	height: 600px;
+	width:700px;
+	display: flex;
+	flex-direction: column;
+	/* background-image: url("D:\Pictures\Saved Pictures\banking-payment-banner-set_98292-1129.jpg"); */
+	background-size: 700px 600px;
+	
+}
+.mc{
+	display: flex;
+	flex-direction: row;
+	gap: 40px; 
+	flex-wrap: wrap;
+	padding: 10px;
+	
+}
+.blogo{
+	width: auto;
+	height: 200px;
+	background-color: blue;
+
+}
+p{
+	font-size: 120%;
+}
+b{
+	font-size: 150%;
+}
+.cw{
+	font-size: 300%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: green;
+
+}
+.bn{
+	 color:blue;
+}
+

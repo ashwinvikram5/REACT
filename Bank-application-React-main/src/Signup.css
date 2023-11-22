@@ -1,0 +1,71 @@
+/* BankingSignUp.css */
+
+.banking-sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+   background-image:url("D:\Downloads\banking-payment-banner-set\1129.jpg");
+   background-image:url("D:\Videos\WhatsApp Image 2023-11-21 at 16.13.59_24251674.jpg");
+  
+  background-repeat: no-repeat;
+  background-size:1600px 900px;
+  
+}
+
+.banking-sign-up-form {
+  width: 400px;
+  /* background-image: url("https://www.shutterstock.com/image-vector/online-banking-login-protection-concept-smart-2125197293"); */
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 700px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.error-message {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #ff0000;
+}
+
+button {
+  background-color: #00ff51ed;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
